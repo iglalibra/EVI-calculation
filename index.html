@@ -13,68 +13,86 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
-            }
+        }
 
-            .bg {
-            position:absolute;
-            z-index:-1;
-            top:0;
-            right:0;
-            bottom:0;
-            left:0;
-            
-            background-image: radial-gradient(circle at 30% 86%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 55% 100%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 40% 75%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 7% 99%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 69% 76%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 2% 35%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 14% 48%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 28% 87%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 65% 14%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 51% 36%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 6% 93%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),linear-gradient(135deg, rgb(23, 233, 173),rgb(29, 24, 208));
-            }
+        .bg {
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: radial-gradient(circle at 30% 86%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), 
+                              radial-gradient(circle at 55% 100%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), 
+                              radial-gradient(circle at 40% 75%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                              radial-gradient(circle at 7% 99%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                              radial-gradient(circle at 69% 76%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                              radial-gradient(circle at 2% 35%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                              radial-gradient(circle at 14% 48%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                              radial-gradient(circle at 28% 87%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 4%, transparent 4%, transparent 96%), 
+                              radial-gradient(circle at 65% 14%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 4%, transparent 4%, transparent 96%), 
+                              radial-gradient(circle at 51% 36%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 4%, transparent 4%, transparent 96%), 
+                              radial-gradient(circle at 6% 93%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 4%, transparent 4%, transparent 96%), 
+                              linear-gradient(135deg, rgb(23, 233, 173), rgb(29, 24, 208));
+        }
 
-            .eu-logo {
+        .eu-logo {
             position: absolute;
             z-index: 1;
-            top:0;
-            left:0;
-            max-width: 80px; 
-            width: 80px; 
-            min-width: 80px; 
-            height: auto; 
+            top: 0;
+            left: 0;
+            max-width: 80px;
+            width: 80px;
+            min-width: 80px;
+            height: auto;
             display: block;
             padding: 20px;
-            }
+        }
 
-            .container {
+        .container {
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 500px;
+            box-sizing: border-box;
+        }
 
-            
-            }
-            h1 {
+        h1 {
             text-align: center;
             margin-bottom: 20px;
             margin-top: 0;
-            }
-            .form-group {
+        }
+
+        .form-group {
             margin-bottom: 15px;
-            }
-            .form-group label {
+        }
+
+        .form-group label {
             display: block;
             margin-bottom: 5px;
-            }
-            .form-group input {
+        }
+
+        .form-group input {
             width: 100%;
             padding: 10px;
             font-size: 16px;
             border: 2px solid #ccc;
             border-radius: 4px;
             box-sizing: border-box;
-            }
-            .form-group input.invalid {
+        }
+
+        .form-group input.invalid {
             border-color: red;
-            }
-            .result {
+        }
+
+        .result {
             margin-top: 10px;
             font-weight: bold;
-            }
-            button {
+        }
+
+        button {
             display: block;
             width: 100%;
             padding: 10px;
@@ -84,30 +102,60 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            }
-            button:hover {
+        }
+
+        button:hover {
             background-color: #0056b3;
-            }
+        }
 
-            input[type="number"]::-webkit-outer-spin-button,
-            input[type="number"]::-webkit-inner-spin-button {
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
             -webkit-appearance: none;
-            }
+        }
 
-            input[type='number'],
-            input[type="number"]:hover,
-            input[type="number"]:focus {
+        input[type='number'],
+        input[type="number"]:hover,
+        input[type="number"]:focus {
             appearance: none;
             -moz-appearance: textfield;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                width: 95%;
             }
-    </style>    
+
+            .eu-logo {
+                max-width: 60px;
+                width: 60px;
+                min-width: 60px;
+                padding: 15px;
+            }
+
+            button {
+                padding: 8px;
+                font-size: 14px;
+            }
+
+            .form-group input {
+                padding: 8px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                width: 80%;
+            }
+        }
+    </style>
 </head>
 <body>
     <a href="https://e-u.com.ua/">
-    <img class="eu-logo" src="https://static.tildacdn.one/tild3163-6135-4239-b639-643831353730/Frame_9.svg" alt="Європейський університет">
+        <img class="eu-logo" src="https://static.tildacdn.one/tild3163-6135-4239-b639-643831353730/Frame_9.svg" alt="Європейський університет">
     </a>
-    <div class="bg">
-    </div>
+    <div class="bg"></div>
     <div class="container">
         <h1>Розрахунок балів ЄВІ</h1>
         <div class="form-group">
@@ -169,7 +217,7 @@
                 languageResult.textContent = languageMapping[languageValue] || '';
             }
         }
-        
+
         document.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
                 calculateScores();
